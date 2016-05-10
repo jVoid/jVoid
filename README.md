@@ -1,6 +1,7 @@
 jVoid
 =======
 [![Build Status](https://travis-ci.org/jvoid/jVoid.svg?branch=master)](https://travis-ci.org/jvoid/jVoid)
+![](https://img.shields.io/badge/Awesome-YES!-brightgreen.svg?style=flat-square)
 
 
 Tests are boring. Running tests is even more boring. No one has time and/or patience to run the tests.
