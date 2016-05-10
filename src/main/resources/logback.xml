@@ -2,7 +2,7 @@
 
 <configuration>
 
-	<appender name="STDOUT" class="com.jvoid.libraries.ch.qos.logback.core.ConsoleAppender">
+	<appender name="STDOUT" class="io.jvoid.libraries.ch.qos.logback.core.ConsoleAppender">
 		<encoder>
 			<pattern>%d{HH:mm:ss.SSS} [%thread] %-5level %logger{5} - %msg%n</pattern>
 		</encoder>

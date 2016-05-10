@@ -42,7 +42,7 @@ test.doFirst {
 dependencies {
     testCompile <JUnit/Spock/TestNG dependencies>  
 
-    testAgent "com.jvoid:jvoid:1.0.0-SNAPSHOT"
+    testAgent "io.jvoid:jvoid:1.0.0-SNAPSHOT"
 }
 ```
 
@@ -117,7 +117,7 @@ dependencies {
     testCompile "org.spockframework:spock-core:1.0-groovy-2.4"
     
     testCompile 'mysql:mysql-connector-java:5.1.38'
-    testAgent "com.jvoid:jvoid:1.0.0-SNAPSHOT"
+    testAgent "io.jvoid:jvoid:1.0.0-SNAPSHOT"
 }
 ```
 
