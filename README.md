@@ -64,7 +64,7 @@ Example `pom.xml`:
 
 ## Other
 
-java -javaagent:<absolute path to jvoid-0.9.0.jar>[:<abolsute path to jvoid configuration file>] <other parameters>
+java -javaagent:&lt;absolute path to jvoid-0.9.0.jar&gt;[:&lt;abolsute path to jvoid configuration file&gt;] &lt;other parameters&gt;
 
 # Configuration
 
@@ -98,7 +98,7 @@ TestNG support is planned for future releases.
 
 # FAQs
 
-## Is this safe? How I am sure that jVoid is not making me look bad when I break the build?
+## Is this safe? How am I sure that jVoid is not making me look bad when I break the build?
 
 By design JVoid is conservative and, in doubt, will never skip a test. In our view it this cases it is better to wait a bit for the tests to complete than let a bug creep in.
 
@@ -139,9 +139,9 @@ But no worries: full support of JaCoCo (and its integration) are planned for fut
 
 ## Does jVoid send any information to 3rd party entities?
 
-No! jVoid is totally local (except if you connect to an external database server.) Not even a single bit is sent anywhere :)
+No! jVoid is totally local (except if you connect to an external database server). Not even a single bit is sent anywhere :)
 
-## Guys, I really need <fill with any feature name and/or description>, otherwise JVoid is useless for me/my organization!
+## Guys, I really need [*fill with any feature name and/or description*], otherwise JVoid is useless for me/my organization!
 
 We are glad you spent a bit of your busy time looking at jVoid. Please tell us that using an issue in GitHub and/or suggest a change via a Pull Request that contains that impressive feature.
 
