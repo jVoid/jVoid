@@ -1,6 +1,6 @@
 jVoid
 =======
-[![Build Status](https://travis-ci.org/jvoid/jVoid.svg?branch=master)](https://travis-ci.org/jvoid/jVoid)
+[![Build Status](https://travis-ci.org/jVoid/jVoid.svg?branch=master)](https://travis-ci.org/jVoid/jVoid)
 ![](https://img.shields.io/badge/Awesome-YES!-brightgreen.svg?style=flat-square)
 
 
