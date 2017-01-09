@@ -70,8 +70,8 @@
     </developers>
 
     <scm>
-        <connection>scm:git:https://github.com/jvoid/jVoid.git</connection>
-        <developerConnection>scm:git:https://github.com/jvoid/jVoid.git</developerConnection>
+        <connection>scm:git:git@github.com:jVoid/jVoid.git</connection>
+        <developerConnection>scm:git:git@github.com:jVoid/jVoid.git</developerConnection>
         <url>git@github.com:jvoid/jVoid.git</url>
     </scm>
 
