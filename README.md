@@ -42,7 +42,7 @@ test.doFirst {
 dependencies {
     testCompile <JUnit/Spock/TestNG dependencies>  
 
-    testAgent "io.jvoid:jvoid:1.0.0-SNAPSHOT"
+    testAgent "io.jvoid:jvoid:1.0.0"
 }
 ```
 
@@ -67,7 +67,7 @@ Example `pom.xml`:
 
 ## Other
 
-java -javaagent:&lt;absolute path to jvoid-1.0.0-SNAPSHOT.jar&gt;[:&lt;abolsute path to jvoid configuration file&gt;] &lt;other parameters&gt;
+java -javaagent:&lt;absolute path to jvoid-1.0.0.jar&gt;[:&lt;abolsute path to jvoid configuration file&gt;] &lt;other parameters&gt;
 
 # Configuration
 
@@ -117,7 +117,7 @@ dependencies {
     testCompile "org.spockframework:spock-core:1.0-groovy-2.4"
     
     testCompile 'mysql:mysql-connector-java:5.1.38'
-    testAgent "io.jvoid:jvoid:1.0.0-SNAPSHOT"
+    testAgent "io.jvoid:jvoid:1.0.0"
 }
 ```
 
