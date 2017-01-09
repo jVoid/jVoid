@@ -67,7 +67,7 @@ Example `pom.xml`:
 
 ## Other
 
-java -javaagent:&lt;absolute path to jvoid-0.9.0.jar&gt;[:&lt;abolsute path to jvoid configuration file&gt;] &lt;other parameters&gt;
+java -javaagent:&lt;absolute path to jvoid-1.0.0-SNAPSHOT.jar&gt;[:&lt;abolsute path to jvoid configuration file&gt;] &lt;other parameters&gt;
 
 # Configuration
 
@@ -174,4 +174,5 @@ Configure access to ossrh repoitory in your `~/.m2/settings.xml`
 Import keys into your GPG
 
 Execute a deploy with maven
+
 `./mvnw clean deploy -Possrh -Dgpg.passphrase=<key passphrase>`
