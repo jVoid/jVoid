@@ -151,3 +151,21 @@ We are glad you spent a bit of your busy time looking at jVoid. Please tell us t
 ## I LOVE JVoid! How can I help?
 
 Awww... Thanks! If you can code, create a Pull Request with that new amazing feature or squash a nasty bug. If you can't, we are sure that you have an awesome skill that is super useful! :)
+
+
+# Deployment to Central Repository
+
+Configure access to ossrh repoitory in your `~/.m2/settings.xml`
+```
+<?xml version="1.0" encoding="UTF-8"?>
+<settings>
+  <servers>
+    <server>
+      <id>ossrh</id>
+      <username>_______</username>
+      <password>_______</password>
+    </server>
+  </servers>
+</settings>
+```
+`./mvnw clean deploy -Possrh -Dgpg.passphrase=<key passphrase>`
