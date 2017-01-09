@@ -155,6 +155,8 @@ Awww... Thanks! If you can code, create a Pull Request with that new amazing fea
 
 # Deployment to Central Repository
 
+Check the documentation at: http://central.sonatype.org
+
 Configure access to ossrh repoitory in your `~/.m2/settings.xml`
 ```
 <?xml version="1.0" encoding="UTF-8"?>
@@ -168,4 +170,8 @@ Configure access to ossrh repoitory in your `~/.m2/settings.xml`
   </servers>
 </settings>
 ```
+
+Import keys into your GPG
+
+Execute a deploy with maven
 `./mvnw clean deploy -Possrh -Dgpg.passphrase=<key passphrase>`
