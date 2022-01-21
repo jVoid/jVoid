@@ -30,7 +30,7 @@
         <apache-commons-dbutils.version>1.6</apache-commons-dbutils.version>
         <lombok.version>1.16.8</lombok.version>
         <javassist.version>3.20.0-GA</javassist.version>
-        <h2.version>1.4.191</h2.version>
+        <h2.version>2.1.210</h2.version>
         <hikariCP.version>2.4.5</hikariCP.version>
         <flyaway.version>4.0</flyaway.version>
         <logback.version>1.1.7</logback.version>
